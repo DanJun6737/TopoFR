@@ -1,8 +1,12 @@
-# TopoFR: A Closer Look at Topology Alignment on Face Recognition
+<h2 align="center">TopoFR: A Closer Look at Topology Alignment on Face Recognition
+<h5 align="center"> If you like TopoFR, please give us a star ⭐ on GitHub for the latest update~
+</h2>
+
 This is the official PyTorch implementation of "[NeurIPS 2024] TopoFR: A Closer Look at Topology Alignment on Face Recognition".
 
-
 ![image](docs/TopoFR.png)
+
+Note that the key source code for the PTSA strategy will be released soon.
 
 ## Requirements
 * Install Pytorch (torch>=1.9.0)
@@ -61,7 +65,7 @@ python eval_ijbc_glint360k.py --model-prefix work_dirs/glint360k_r100/Glint360K_
 ```
 
 ## Citation
-* If you find it helpful for you, please cite our paper
+* If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
 ```
 ```
 
