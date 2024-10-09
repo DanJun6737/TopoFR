@@ -6,8 +6,6 @@ This is the official PyTorch implementation of "[NeurIPS 2024] TopoFR: A Closer 
 
 ![image](docs/TopoFR.png)
 
-Note that the key source code for the PTSA strategy will be released soon.
-
 ## Requirements
 * Install Pytorch (torch>=1.9.0)
 * ```pip install -r requirement.txt```
