@@ -19,12 +19,14 @@ def inference(weight, name, img):
     img = np.transpose(img, (2, 0, 1))
     img = torch.from_numpy(img).unsqueeze(0).float()
     img.div_(255).sub_(0.5).div_(0.5)
-    net = get_model(name, fp16=False)
-    net.load_state_dict(torch.load(weight))
-    net.eval()
-    feat = net(img).numpy()
-    print(feat)
 
+    ckpt = torch.load(weight)
+    num_classes = ckpt['weight'].shape[0]
+    net = get_model(name, fp16=False, num_classes=num_classes)
+    net.load_state_dict(ckpt)
+    net.eval()
+    feat = net(img, phase='infer').numpy()
+    print(feat)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='PyTorch ArcFace Training')
