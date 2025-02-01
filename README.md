@@ -80,5 +80,5 @@ python eval_ijbc_glint360k.py --model-prefix work_dirs/glint360k_r100/Glint360K_
 ```
 
 ## Acknowledgments
-We thank Insighface for the excellent [code base](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch).
+We thank Insighface for the excellent [code base](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch).  
 We would like to express our gratitude to the researcher [@developer0hye](https://github.com/developer0hye) for providing an outstanding [HF demo](https://huggingface.co/spaces/developer0hye/TopoFR-Face-Recognition).
