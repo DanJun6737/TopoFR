@@ -18,7 +18,11 @@ You can download the training datasets, including MS1MV2 and Glint360K:
 * Glint360K: [Baidu](https://pan.baidu.com/share/init?surl=GsYqTTt7_Dn8BfxxsLFN0w) (code=:o3az)
 
 You can download the test dataset IJB-C as follows:
-* IJB-C: [Google Drive](https://drive.google.com/file/d/1aC4zf2Bn0xCVH_ZtEuQipR2JvRb1bf8o/view) 
+* IJB-C: [Google Drive](https://drive.google.com/file/d/1aC4zf2Bn0xCVH_ZtEuQipR2JvRb1bf8o/view)
+
+## Hugging Face
+You can easily experience our model on the Hugging Face platform:
+<a href='https://huggingface.co/spaces/developer0hye/TopoFR-Face-Recognition'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a>
 
 ## How to Train Models
 1. You need to modify the path of training dataset in every configuration file in folder configs.
@@ -77,3 +81,4 @@ python eval_ijbc_glint360k.py --model-prefix work_dirs/glint360k_r100/Glint360K_
 
 ## Acknowledgments
 We thank Insighface for the excellent [code base](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch).
+We would like to express our gratitude to the researcher [@developer0hye](https://github.com/developer0hye) for providing an outstanding [HF demo](https://huggingface.co/spaces/developer0hye/TopoFR-Face-Recognition).
