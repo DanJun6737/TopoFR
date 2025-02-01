@@ -21,7 +21,7 @@ You can download the test dataset IJB-C as follows:
 * IJB-C: [Google Drive](https://drive.google.com/file/d/1aC4zf2Bn0xCVH_ZtEuQipR2JvRb1bf8o/view)
 
 ## Hugging Face
-You can easily experience our model on the Hugging Face platform:
+You can easily experience our model on the Hugging Face space:
 <a href='https://huggingface.co/spaces/developer0hye/TopoFR-Face-Recognition'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a>
 
 ## How to Train Models
