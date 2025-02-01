@@ -1,5 +1,7 @@
 <h2 align="center">TopoFR: A Closer Look at Topology Alignment on Face Recognition
 <h5 align="center"> If you like TopoFR, please give us a star ⭐ on GitHub for the latest update~
+<h5 align="center"> <a href='https://huggingface.co/spaces/developer0hye/TopoFR-Face-Recognition'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a>
+
 </h2>
 
 This is the official PyTorch implementation of ["[NeurIPS 2024] TopoFR: A Closer Look at Topology Alignment on Face Recognition"](https://arxiv.org/abs/2410.10587).
