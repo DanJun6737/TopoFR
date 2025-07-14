@@ -4,7 +4,11 @@
 
 </h2>
 
-This is the official PyTorch implementation of ["[NeurIPS 2024] TopoFR: A Closer Look at Topology Alignment on Face Recognition"](https://arxiv.org/abs/2410.10587).
+This is the official PyTorch implementation of ["[NeurIPS 2024] TopoFR: A Closer Look at Topology Alignment on Face Recognition"](https://proceedings.neurips.cc/paper_files/paper/2024/hash/419b6c974712adb884bfbbeea8e94d1b-Abstract-Conference.html).
+
+
+[[Arxiv Version]](https://arxiv.org/abs/2410.10587) [[Code in FaceChain Rep.]](https://github.com/modelscope/facechain/tree/main/face_module/TopoFR)[[机器之心]](https://www.jiqizhixin.com/articles/2024-10-17-6) [[CVer]](https://mp.weixin.qq.com/s/3NegnpJUGPfI_dOfkp_4LQ) [[CSDN]](https://blog.csdn.net/sunbaigui/article/details/143230746?spm=1001.2014.3001.5502)
+
 
 ![image](docs/TopoFR.png)
 
