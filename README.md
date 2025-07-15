@@ -75,10 +75,13 @@ python eval_ijbc_glint360k.py --model-prefix work_dirs/glint360k_r100/Glint360K_
 ## Citation
 * If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
 ```
-@inproceedings{dantopofr,
-  title={TopoFR: A Closer Look at Topology Alignment on Face Recognition},
+@article{dan2024topofr,
+  title={Topofr: A closer look at topology alignment on face recognition},
   author={Dan, Jun and Liu, Yang and Deng, Jiankang and Xie, Haoyu and Li, Siyuan and Sun, Baigui and Luo, Shan},
-  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={37213--37240},
+  year={2024}
 }
 ```
 
